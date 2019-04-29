@@ -8,6 +8,6 @@ class Song
   end
 
   def artist_name(name)
-      @@all[name]
+      @name = name
   end
 end
